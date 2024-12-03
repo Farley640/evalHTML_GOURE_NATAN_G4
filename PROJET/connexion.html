@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/connexion_style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body id="body" class="dflex alignement-vertical">
+
+    <div class="divconnexion">
+
+        <div id="div-titre">
+            <p class="alignement-vertical">Connectez-vous</p>
+        </div>
+        <div class="align-content-center d-flex">
+
+            <form action="" class="align-content-center d-flex">
+
+                <div class="d-flex space-around space-around">
+                    <div id="pseudo" class=" margin">
+                        <label for="">Pseudo</label> <br>
+                        <input placeholder="Votre pseudo" type="pseudo">
+                    </div>
+
+                    <div id="mail" class="margin">
+                        <label for="">Votre mail</label> <br>
+                        <input placeholder="Entrez votre mail" type="email">
+                    </div>
+
+                    <div id="password" class=" margin">
+                        <label for=""> Mot de passe</label> <br>
+                        <input placeholder="Entrez votre MDP" type="password">
+                    </div>
+                    
+                    <div id="password-check" class=" margin">
+                        <label for=""> Verification mot de passe</label> <br>
+                        <input placeholder="Vérifiez le MDP" type="password">
+                    </div>
+
+                    <div  class="margin">
+                        <label for="">Genre :</label>
+                        <select name="genre" id="genre">
+                          <option value="homme">Homme</option>
+                          <option value="femme">Femme</option>
+                          <option value="autre">Autre</option>
+                        </select>
+                      </div>
+                      
+                    
+                </div>
+
+                <div class=" margin">
+                    <button id="send-button" >Envoyer</button>
+                </div>
+
+            </form>
+
+
+        </div>
+
+
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/guerrier.js"></script>
+</body>
+
+</html>

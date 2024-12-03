@@ -4,16 +4,17 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark_style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROJEETTT</title>
 </head>
 
-<body id="body">
-    <header class="general-margin d-flex header uniformity-alignement justify-content-center align-items-center border" >
+<body id="body" class="bodyclass darkmodediv transition">
+    <header class="general-margin d-flex header uniformity-alignement justify-content-center align-items-center border darkmodediv" >
 
         <div>
-            <img src="img/omagaahhh.svg" alt="émoji choqué" class="d-flex logo-width align-items-center justify-content-center" id="logoheader">
+            <img src="img/omagaahhh.svg" alt="émoji choqué" class="d-flex logo-width align-items-center justify-content-center " id="logoheader">
         </div>
 
         <div>
@@ -24,18 +25,18 @@
 
 
        
-        <div class="">
+        <div class="darkmodediv">
 
             <nav class="">
-                <ul class="d-flex justify-content-end font-size ul">
+                <ul class="d-flex justify-content-end font-size ul align-center" >
                     <li>
                         <a href="index.html" style="text-decoration: none; color: #000;"> Lien 1</a>
                     </li>
                     <li>
-                        <a href="index.html" style="text-decoration: none; color: #000;"> Lien 2</a>
+                        <a href="connexion.html" style="text-decoration: none; color: #000;">Se connecter</a>
                     </li>
                     <li>
-                        <a href="index.html" style="text-decoration: none; color: #000;"> Lien 3</a>
+                        <button id="DarkModeButton" style="height: 40px; width: 40px;" id="DarkModeButton">Dark</button>
                     </li>
 
                 </ul>
@@ -46,9 +47,48 @@
 
     </header>
 
+    <div class="general-margin padding10 border" style="border-radius: 20px;">
+        
+        <div>
+            <nav>
+                <ul class="justify-content-center d-flex ulpage">
+                    <li>
+                        <button id="button1" class="buttonspage ">Page 1</button>
+                    </li>
+                    <li>
+                        <button id="button2" class="buttonspage ">Page 2</button>
+                    </li>
+                    <li>
+                        <button id="button3" class="buttonspage ">Page 3</button>
+                    </li>
+                    <li>
+                        <button id="buttonx" class="buttonx">✖ Fermer</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
 
+        <div id="page-div1" class="pagediv">
+            <div class="d-flex">
+                <img style="border-radius: 10px" src="img/projet wheel.png" alt="projet a la con qui verra surement jamais le jour rip">
+            </div>
+            <p style="margin-top: 0px ;">Voici la page 1</p>
 
-    <main class="general-margin padding10 main border">
+        </div>
+
+        <div id="page-div2" class="pagediv">
+            <p style="margin-top: 0px ;">Puis juste après y a la 2, logique</p>
+
+        </div>
+        <div id="page-div3" class="pagediv">
+            <p style="margin-top: 0px ;">Et la bam , c'est la n°3, dinguerie nan ?</p>
+
+        </div>
+
+    </div>
+
+    <main class="general-margin padding10 border border-radius" >
         
         <div>
             <img src="" alt="">
@@ -115,7 +155,7 @@
         <div class="d-flex align-items-center " >
 
             <div class="">
-              <img src="img/Paul-logo-footer.png" alt="paul logo footer" class="logo-footer-paul padding10" id="paul">
+              <img src="img/Paul-logo-footer.png" alt="paul logo footer" class="padding10" id="paul">
             </div>
 
             <div>
@@ -156,7 +196,8 @@
         </div>
 
     </footer>
-
+    <script src="js/main.js"></script>
+    <script src="js/tabs.js"></script>
 </body>
 
 </html>
